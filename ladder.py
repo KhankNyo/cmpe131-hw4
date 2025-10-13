@@ -1,5 +1,5 @@
 def my_steps(n: int) -> int:
-    if n not in range(1, 26):
+    if (not isinstance(n, int)) or (n not in range(1, 26)):
         raise ValueError;
 
     if n <= 2: 
