@@ -6,8 +6,3 @@ def timestamp(Fn):
         Fn(*Args, **KWArgs);
     return Wrapper;
 
-@timestamp
-def __test__():
-    print("himom");
-
-# __test__();
