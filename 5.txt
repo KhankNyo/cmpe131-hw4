@@ -1,0 +1,1 @@
+We use inheritence to add more behavior on existing ones, or to reuse existing code. 
