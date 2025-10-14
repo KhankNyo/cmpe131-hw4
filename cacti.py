@@ -18,12 +18,3 @@ def cacti_number(CactiMap: list):
                     CactiMap[y][x] = 1; # plant it so we don't forget
     return Count;
 
-def Use():
-
-    A = [ [0, 1, 0, 0, 0, 0],
-    [0, 0, 0, 1, 0, 0],
-    [1, 0, 1, 0, 0, 1] ]
-
-    print(cacti_number(A));
-
-Use();
