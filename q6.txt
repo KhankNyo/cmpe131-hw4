@@ -1,0 +1,3 @@
+1. No
+2. Yes 
+3. Because in increment_int_b, it is incrementing a value in a dictionary, which is passed by reference in python. While in increment_int_a, the argument was passed by value. 
