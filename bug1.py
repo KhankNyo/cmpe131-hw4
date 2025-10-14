@@ -4,7 +4,7 @@ class Base:
         self.y = y;
         self.size = size;
     def shape(self):
-        return "This is a Circle";
+        return "This is a circle";
 
 
 class Circle(Base):
@@ -16,15 +16,15 @@ class Circle(Base):
 ({self.x}, {self.y})\n{self.size}
          , - ~ ~ ~ - ,
      , '               ' ,
-   ,                      ,
-  ,                        ,
- ,                          ,
- ,                          ,
- ,                          ,
-  ,                        ,
-   ,                      ,
-     ,                 , '
-       ' - , _ _ _ , '
+   ,                       ,
+  ,                         ,
+ ,                           ,
+ ,                           ,
+ ,                           ,
+  ,                         ,
+   ,                       ,
+     ,                  , '
+       ' - , _ _ _ ,  '
 """
 
 
