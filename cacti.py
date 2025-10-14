@@ -1,5 +1,5 @@
 
-def cacti_number(CactiMap: list):
+def cacti_number(CactiMap: list) -> int:
     if not isinstance(CactiMap, list):
         raise TypeError;
     Count = 0;
@@ -8,7 +8,7 @@ def cacti_number(CactiMap: list):
         RowLength = len(CactiMap[y]);
         for x in range(0, RowLength): 
             if CactiMap[y][x] == 0: 
-                # check plantable slots
+                # check adjacent slots
                 IsPlantable = x - 1 < 0 or CactiMap[y][x - 1] == 0;
                 IsPlantable = IsPlantable and (x + 1 >= RowLength or CactiMap[y][x + 1] == 0);
                 IsPlantable = IsPlantable and (y - 1 < 0 or CactiMap[y - 1][x] == 0);
